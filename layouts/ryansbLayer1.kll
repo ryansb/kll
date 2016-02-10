@@ -2,8 +2,6 @@ Name = ryansbLayer1;
 Version = 0.1;
 Author = "Ryan Scott Brown (ryansb) 2016";
 KLL = 0.3d;
-
-# Modified Date
 Date = 2016-02-09;
 
 U"Function1" : U"Next Layer";
