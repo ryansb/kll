@@ -1,0 +1,19 @@
+Name = ryansbLayer1;
+Version = 0.1;
+Author = "Ryan Scott Brown (ryansb) 2016";
+KLL = 0.3d;
+
+# Modified Date
+Date = 2016-02-09;
+
+U"Function1" : U"Next Layer";
+U"Function2" : U"Prev Layer";
+U"Function3" : U"Latch1";
+U"Function4" : U"Prev Layer";
+
+# figure out how to make "JK" into escape
+#U["J"] + U["K"] : U"Esc";
+
+# switch alt/windows keys
+U"LGui" : U"LAlt";
+U"LAlt" : U"LGui";

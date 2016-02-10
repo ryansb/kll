@@ -1,0 +1,46 @@
+Name = ryansbLayer2;
+Version = 0.1;
+Author = "Ryan Scott Brown (ryansb) 2016";
+KLL = 0.3d;
+Date = 2016-02-09;
+
+# lowest leftmost flashmode
+U"Function2" : flashMode();
+
+U"1" : U"F1";
+U"2" : U"F2";
+U"3" : U"F3";
+U"4" : U"F4";
+U"5" : U"F5";
+U"6" : U"F6";
+U"7" : U"F7";
+U"8" : U"F8";
+U"9" : U"F9";
+U"0" : U"F10";
+U"Minus" : U"F11";
+U"Equal" : U"F12";
+
+U"RAlt" : U"Ctrl" + U"LAlt" + U"Right";
+U"RGui" : U"Ctrl" + U"LAlt" + U"Left";
+
+# WASD are arrows
+U"W" : U"Up";
+U"A" : U"Left";
+U"S" : U"Down";
+U"D" : U"Right";
+
+# media controls
+U"Ctrl" : CONS"VolumeDown";
+U"Tab" : CONS"VolumeUp";
+U"Esc" : CONS"Mute";
+
+# page up/down/home/end
+U"Q" : U"Home";
+U"E" : U"End";
+U"R" : U"PageUp";
+U"F" : U"PageDown";
+
+# brightness
+
+U"Backspace" : CONS"BrightnessIncrement";
+U"Enter" : CONS"BrightnessDecrement";
